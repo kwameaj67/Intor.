@@ -1,0 +1,146 @@
+@media screen and (max-width:480px){
+    /* section 1 */
+    .section-1 .intro-container .text-container{
+         margin:0rem 2rem;
+        }
+    .section-1 .intro-container .text-container h1{
+        font-size: 60px;
+    }
+    .section-1 .intro-container .text-container .summary-text-container .scroll-container .divider{
+        display: none;
+    }
+    .section-1 .intro-container .text-container .summary-text-container{
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        align-items: flex-start;
+    }
+    .section-1 .intro-container .text-container .summary-text-container .scroll-container p{
+        padding-left: 0px;
+    }
+    .section-1 .intro-container .text-container .summary-text-container .summary-text p{
+        max-width: 70rem;
+        line-height: 28px;
+    }
+    /* section 2 */
+    .section-2 .works-container .works-summary{
+        padding-right: 0px;
+    }
+    .section-2 .works-container .works-summary h1{
+        font-size: 60px;
+        margin-bottom:1.5rem;
+    }
+    .section-2 .works-container  .works-summary p{
+        margin-bottom:3rem;
+        line-height:28px; 
+    }
+    .section-2 .works-container  .works-summary .bg-img-container{
+        width: 100%;    
+        height:auto;
+    }
+    .works-list-container{
+        margin: 2rem 0rem;
+        padding-right: 0px;
+    }
+    /* section 3 */
+    .section-3 .text-container{
+        margin:4rem 3rem;
+    }
+    .section-3 .text-container h1{
+        font-size: 40px;
+        line-height:60px;
+        max-width: 100%;
+        font-weight:500;
+    }
+   /* section 4 */
+   .section-4 .text-container{
+    margin:2rem 2rem;
+        }
+        .section-4 .text-container .item-container{
+            margin: 1rem 0rem;
+        }
+        .section-4 .text-container .item-container .item .content-container p{
+            font-size: 20px;
+        }
+        /* section 5 */
+        .section-5 .text-container{
+            padding: 4rem 0rem;
+        }
+        .section-5 .text-container .heading-text .first, .section-5 .text-container .heading-text .second {
+            font-size: 60px;
+        }
+        .section-5 .text-container .summary-text p{
+            line-height:28px;
+        }
+}
+@media screen and (max-width:769px){
+    .section-1 .intro-container{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items:center;
+    /* height: 43rem;  */
+    padding-bottom: 40rem;  
+    }
+    .section-1 .intro-container .bg-img-container{
+        display: none;
+    }
+    /* section 2 */
+    .section-2 .works-container{
+        padding: 5rem 3rem;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content:space-between;
+        align-items:center;
+    }
+    /* section 3 */
+    .section-3 .text-container{
+        display: flex;
+        justify-content:space-between;
+        flex-direction: column;
+    }
+    .section-3 .text-container .text-p {
+        margin-top: 20px;
+    }
+    /* section 4 */
+    .section-4 .text-container{
+        margin:4rem 1rem;
+    }
+    .section-4 .text-container .item-container .item .content-container {
+        padding: 0rem 2rem;
+    }
+    /* section 5 */
+    .section-5 .text-container{
+        margin:0rem 2em;
+        display: flex;
+        justify-content:space-between;
+        flex-direction: column;
+    }
+    .section-5 .text-container .heading-text .second{
+        text-align:left;
+    }
+    .section-5 .text-container .summary-text{
+        display:flex;
+        justify-content:flex-start;
+        align-items: flex-start;
+        padding:2rem 1rem;
+    }
+}
+@media screen and (max-width:800px){
+    .section-4 .text-container{
+        margin:4rem 1rem;
+    }
+}
+
+@media screen and (max-width:1300px){
+    /* section 4 */
+    .section-4 .text-container{
+        margin:4rem 2rem;
+    }
+}
+@media screen and (max-width:1100px){
+    /* section 4 */
+    .section-4 .text-container .item-container .item .content-container {
+        padding: 0rem 1rem;
+    }
+}
