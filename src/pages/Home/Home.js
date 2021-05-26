@@ -3,6 +3,11 @@ import './responsive.css'
 import Navbar from '../../components/Navbar/navbar'
 import Footer from '../../components/Footer/footer'
 import image from '../../assets/zane-persaud-V8CSUtCP04E-unsplash.svg'
+import item1 from '../../assets/devon-janse-van-rensburg-_WEDFTZV0qU-unsplash.svg'
+import item2 from '../../assets/rune-enstad-UXFJ-6Zj27M-unsplash.svg'
+import item3 from '../../assets/sidekix-media-oCw5_evbWyI-unsplash.svg'
+import designImage from '../../assets/jason-briscoe-UV81E0oXXWQ-unsplash.svg'
+import designImage1 from '../../assets/im3rd-media-dn5VihVxloc-unsplash.svg'
 import { CgArrowLongRight } from 'react-icons/cg'
 function Home() {
   return (
@@ -25,6 +30,9 @@ function Home() {
           <div className="bg-img-container">
             <img src={image} alt="img" className="bg-img" />
           </div>
+        </div>
+        <div className="overlay-container">
+          <img src={image} alt="img" className="overlay-img" />
         </div>
       </section>
       <section className="section-2" id="works">
@@ -62,6 +70,69 @@ function Home() {
               <img src={image} alt="img" className="bg-img" />
             </div>
           </div>
+        </div>
+      </section>
+      <section className="our-projects" id="projects">
+        <div className="text-container">
+          <div className="heading-container">
+            <h1>Our Projects</h1>
+            <p>Intor is definitely a new way of getting work done and sharing. Interior ecosystems are created as productive and collaborative environments.</p>
+          </div>
+          <div className="summary-container">
+            <h1>01/09</h1>
+            <p>Duis airt dolor in suitds velit asuss ipsum</p>
+          </div>
+        </div>
+        <div className="projects-container">
+          <div className="project-item">
+            <div className="project-img">
+              <img src={item1} alt="img" className="img"  loading="lazy"/>
+            </div>
+            <div className="project-heading">
+              <h1>Outdoor</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+          <div className="project-item">
+            <div className="project-img">
+              <img src={item2} alt="img" className="img"  loading="lazy"/>
+            </div>
+            <div className="project-heading">
+              <h1>Officeroom</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+          <div className="project-item">
+            <div className="project-img">
+              <img src={item3} alt="img" className="img"  loading="lazy"/>
+            </div>
+            <div className="project-heading">
+              <h1>Kitchen</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="about-us" id="about">
+        <div className="about-heading">
+            <h1>Intor is a team of enthusiasts providing a high quality of solution for all interior work.</h1>
+        </div>
+        <div className="row-container">
+            <div className="text-container">
+              <div className="heading">
+                <p className="left">Discover the best interior</p>
+                <p className="right">design for your best home</p>
+              </div>
+              <div className="summary">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br/> <br/>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              </div>
+              <div className="image">
+                 <img src={designImage1} alt="img" className="img" loading="lazy"/>
+              </div>
+            </div>
+            <div className="image-container">
+                <img src={designImage} alt="img" className="img"  loading="lazy" />
+            </div>
         </div>
       </section>
       <section className="section-3">
@@ -114,7 +185,7 @@ function Home() {
           </div>
         </div>
       </section>
-      <section className="section-5" id="about">
+      <section className="section-5">
         <div className="text-container">
           <div className="heading-text">
             <h1 className="first">Let's work</h1>
@@ -125,7 +196,7 @@ function Home() {
           </div>
         </div>
       </section>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

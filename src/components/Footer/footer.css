@@ -1,8 +1,4 @@
-:root{
-    --grey:#EEEFF1;
-    --black:#1d1d1d;
-    --grey:#e2e2e2;
-  }
+
 h1 , p{
     margin:0;
     padding:0;
@@ -26,7 +22,7 @@ justify-content:space-between;
     font-weight:700;
     color:white;
     letter-spacing:-2px;
-    opacity: 0.7;
+    /* opacity: 0.7; */
 }
 .footer .footer-container .footer-links .info .socials{
     padding-top: 35px;
@@ -82,7 +78,7 @@ justify-content:space-between;
     padding-bottom: 30px;
 }
 .footer .footer-container .footer-links .links-container .item .active-links a{
-    font-size: 16px;
+    font-size: 15px;
     font-weight:600;
     color:white;
     opacity: 0.3;

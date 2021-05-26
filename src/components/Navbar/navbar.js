@@ -19,7 +19,8 @@ function Navbar() {
               <li><a href="/">Home</a></li>
               <li><a href="#works">How it works</a></li>
               <li><a href="#about">About Us</a></li>
-              {/* <li><a href="#news">News</a></li> */}
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#news">News</a></li>
             </ul>
           </div>
           <div className={show ? "menu-toggle is-active" : "menu-toggle"} id="mobile-menu" onClick={toggleMenu}>

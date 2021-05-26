@@ -5,9 +5,8 @@
   box-sizing: border-box;
 }
 :root{
-  --grey:#EEEFF1;
+  --grey:#f5f5f5;
   --black:#090706;
-  --grey:#7C8180;
 }
 html { 
   scroll-behavior: smooth;

@@ -25,6 +25,7 @@
     /* section 2 */
     .section-2 .works-container .works-summary{
         padding-right: 0px;
+        padding-left: 0px;
     }
     .section-2 .works-container .works-summary h1{
         font-size: 60px;
@@ -93,6 +94,10 @@
         justify-content:space-between;
         align-items:center;
     }
+    .section-2 .works-container .works-summary{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
     /* section 3 */
     .section-3 .text-container{
         display: flex;
@@ -132,6 +137,11 @@
     }
 }
 
+@media screen and (max-width:1200px){
+    .section-1 .overlay-container{
+        display:none;
+    }
+}
 @media screen and (max-width:1300px){
     /* section 4 */
     .section-4 .text-container{
