@@ -1,7 +1,7 @@
 :root{
     /* --grey:#f5f5f5; */
     --black:#1d1d1d;
-    /* --grey:#e2e2e2; */
+    --grey:#e2e2e2;
   }
 
 h1 , p{
@@ -409,6 +409,10 @@ display: flex;
    opacity:0.4;
    max-width: 15rem;
 }
+.our-projects .projects-container::-webkit-scrollbar{
+    display: none;
+  }
+
 .our-projects .projects-container{
     padding: 2rem 4rem;
     display:flex;
@@ -416,6 +420,9 @@ display: flex;
     align-items:center;
     flex-direction: row;
     overflow: scroll;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none; 
+
 }
 .our-projects .projects-container .project-item{
     padding-right: 3rem;
