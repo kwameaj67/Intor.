@@ -3,6 +3,10 @@ h1 , p{
     margin:0;
     padding:0;
 }
+:root{
+    --grey:#f5f5f5;
+    --black:#1d1d1d;
+  }
 .footer{
     background-color: var(--black);
 }
