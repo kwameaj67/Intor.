@@ -11,6 +11,9 @@
             margin-top: 2rem;
             width: 100%;
         }
+        .footer .footer-container .footer-links .info .socials{
+            padding-bottom: 35px;
+        }
 }
 
 @media screen and (max-width:900px){

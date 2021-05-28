@@ -86,7 +86,7 @@ function Home() {
         <div className="projects-container">
           <div className="project-item">
             <div className="project-img">
-              <img src={item1} alt="img" className="img"  loading="lazy"/>
+              <img src={item1} alt="img" className="img" loading="lazy" />
             </div>
             <div className="project-heading">
               <h1>Outdoor</h1>
@@ -95,7 +95,7 @@ function Home() {
           </div>
           <div className="project-item">
             <div className="project-img">
-              <img src={item2} alt="img" className="img"  loading="lazy"/>
+              <img src={item2} alt="img" className="img" loading="lazy" />
             </div>
             <div className="project-heading">
               <h1>Officeroom</h1>
@@ -104,7 +104,7 @@ function Home() {
           </div>
           <div className="project-item">
             <div className="project-img">
-              <img src={item3} alt="img" className="img"  loading="lazy"/>
+              <img src={item3} alt="img" className="img" loading="lazy" />
             </div>
             <div className="project-heading">
               <h1>Kitchen</h1>
@@ -115,24 +115,24 @@ function Home() {
       </section>
       <section className="about-us" id="about">
         <div className="about-heading">
-            <h1>Intor is a team of enthusiasts providing a high quality of solution for all interior work.</h1>
+          <h1>Intor is a team of enthusiasts providing a high quality of solution for all interior work.</h1>
         </div>
         <div className="row-container">
-            <div className="text-container">
-              <div className="heading">
-                <p className="left">Discover the best interior</p>
-                <p className="right">design for your best home</p>
-              </div>
-              <div className="summary">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br/> <br/>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-              </div>
-              <div className="image">
-                 <img src={designImage1} alt="img" className="img" loading="lazy"/>
-              </div>
+          <div className="text-container">
+            <div className="heading">
+              <p className="left">Discover the best interior</p>
+              <p className="right">design for your best home</p>
             </div>
-            <div className="image-container">
-                <img src={designImage} alt="img" className="img"  loading="lazy" />
+            <div className="summary">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br /> <br />Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
             </div>
+            <div className="image">
+              <img src={designImage1} alt="img" className="img" loading="lazy" />
+            </div>
+          </div>
+          <div className="image-container">
+            <img src={designImage} alt="img" className="img" loading="lazy" />
+          </div>
         </div>
       </section>
       <section className="section-3">
