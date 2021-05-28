@@ -30,6 +30,7 @@ display: flex;
     font-size: 80px;
     color:white;
     font-weight:500;
+    font-family:"Medium";
     letter-spacing:-2px;
     /* opacity:0.8; */
     max-width: 30rem;
@@ -59,19 +60,23 @@ display: flex;
     transition: all 0.3s ease-in;
 }
 .section-1 .intro-container .text-container .summary-text-container .scroll-container p{
-    font-size: 20px;
+    font-size: 16px;
     color:white;
     font-weight:700;
     opacity:0.9;
     padding-left: 40px;
+    font-family:"Medium";
 }
 .section-1 .intro-container .text-container .summary-text-container .summary-text p{
     font-size: 15px;
     color:white;
     font-weight:600;
+    line-height:24px;
     opacity:0.6;
-    max-width: 20rem;
+    max-width: 24rem;
     padding-right: 15px;
+    font-family:"Regular";
+    letter-spacing:0.5px;
 }
 .section-1 .intro-container .bg-img-container{
     width: 100%;    
@@ -123,11 +128,12 @@ display: flex;
     margin: 4rem 0rem;
 }
 .works-list-container .works-item .heading{
-    font-size: 30px;
+    font-size: 40px;
     color:var(--black);
     font-weight:700;
-    letter-spacing:-2px;
+    letter-spacing:-0.2px;
     padding: 20px 0px;
+    font-family:"Medium";
 }
 .works-list-container .works-item .works-item-content{
     display:flex;
@@ -136,23 +142,25 @@ display: flex;
     align-items:center;
 }
 .works-list-container .works-item .works-item-content h1{
-    font-size: 16px;
+    font-size: 14px;
     font-weight:700;
-    color: rgb(104, 104, 104);
+    color: rgb(173, 173, 173);
     max-width: 40rem;
-    flex-basis: 50%;
+    flex-basis: 40%;
     line-height: 25px;
-    /* letter-spacing:-2px; */
+    letter-spacing:0.5px;
     text-transform: uppercase;
+    font-family:"Medium";
 }
 .works-list-container .works-item .works-item-content p{
-    font-size: 16px;
+    font-size: 15px;
     font-weight:600;
-    color: rgb(104, 104, 104);
-    max-width: 40rem;
-    flex-basis: 50%;
+    color: rgb(129, 129, 129);
+    /* max-width: 70rem; */
+    flex-basis: 60%;
     line-height: 25px;
-    /* letter-spacing:-0.2px; */
+    letter-spacing:0.5px;
+    font-family:"Light";
 }
 .works-list-container .works-item .item-divider {
     display: block;
@@ -173,20 +181,22 @@ display: flex;
     padding-left: 40px;
 }
 .section-2 .works-container .works-summary h1{
-    font-size: 70px;
+    font-size: 80px;
     font-weight:500;
    letter-spacing:-1px;
    margin-bottom:3rem;
-   max-width: 24rem;
    line-height:70px;
+   font-family: "Medium";
 }
 .section-2 .works-container  .works-summary p{
-    font-size: 16px;
+    font-size: 15px;
     font-weight:600;
-    color: rgb(104, 104, 104);
+    color: rgb(129, 129, 129);
     margin-bottom:5rem;
     max-width: 24rem;
-    line-height:24px;
+    line-height:25px;
+    font-family: "Light";
+    letter-spacing:0.5px;
 }
 .section-2 .works-container  .works-summary .bg-img-container{
     width: 100%;    
@@ -213,11 +223,12 @@ display: flex;
     margin:8rem 6rem;
 }
 .section-3 .text-container h1{
-    font-size: 70px;
+    font-size: 80px;
     font-weight:400;
-   letter-spacing:-1px;
-   max-width: 31rem;
-   line-height:70px;
+   letter-spacing:-2px;
+   max-width: 39rem;
+   line-height:90px;
+   font-family: "Regular";
 }
 .section-3 .text-container .text-p {
     display: flex;
@@ -232,13 +243,10 @@ display: flex;
     max-width: 30rem;
     line-height:28px;
     text-align: justify;
+    letter-spacing: 0.5px;
+    font-family: "Light";
 }
-.section-3 .text-container .text-p span{
-    font-size: 20px;
-    font-weight:700;
-    color:var(--black);
-    letter-spacing:-1px;
-}
+
 /* section 4 */
 .section-4{
     width: 100%;
@@ -260,28 +268,31 @@ display: flex;
     /* align-items:center; */
     flex-direction: column;
 }
-.section-4 .text-container .item-container .item .content-container {
-    padding: 0rem 7rem;
-}
-.section-4 .text-container .item-container .item .content-container .date{
-    font-size: 14px;
-    font-weight:600;
-    color: rgb(104, 104, 104); 
-    letter-spacing:-0.5px;
-}
 .section-4 .text-container .item-container .item .content-container{
     display: flex;
     flex-direction: row;
     justify-content:space-between;
     align-items:center;
     margin-bottom: 1.2rem;
+    padding: 0rem 7rem;
 }
+.section-4 .text-container .item-container .item .content-container .date{
+    font-size: 15px;
+    font-weight:600;
+    color: rgb(104, 104, 104); 
+    letter-spacing:-0.5px;
+    font-family: "Light";
+    letter-spacing: 0.5px;
+}
+
 .section-4 .text-container .item-container .item .content-container p{
-    font-size: 24px;
+    font-size: 30px;
     font-weight:500;
    letter-spacing:-1px;
    max-width: 28rem;
    line-height:30px;
+   font-family: "Regular";
+   margin-top: 15px;
 }
 .section-4 .text-container .item-container .item .content-container .arrow-container {
     width: 70px;
@@ -315,14 +326,15 @@ display: flex;
     background-color:var(--black);
 }
 .section-5 .text-container{
-    margin:0rem 10em;
+    margin:0rem 0em;
     display: flex;
     justify-content:space-between;
     flex-direction: row;
-    padding: 10rem 0rem;
+    padding: 10rem 6rem;
 }
 .section-5 .text-container .heading-text{
-    padding:0rem 1rem;
+    padding-right:3rem;
+    flex-basis: 50%;
 }
 .section-5 .text-container .heading-text .first{
     font-size: 80px;
@@ -332,6 +344,7 @@ display: flex;
    color:white;
    opacity:0.9;
    text-align: left;
+   font-family: "Regular";
 }
 .section-5 .text-container .heading-text .second{
     font-size: 80px;
@@ -341,19 +354,25 @@ display: flex;
    color:white;
    opacity:0.9;
    text-align: right;
+   font-family: "Regular";
 }
 .section-5 .text-container .summary-text{
     display:flex;
-    justify-content:flex-end;
+    justify-content:flex-start;
     align-items: flex-end;
+    flex-basis: 50%;
+    padding-left: 4rem;
 }
 .section-5 .text-container .summary-text p{
     font-size: 16px;
     color:white;
     font-weight:600;
-    opacity:0.4;
+    opacity:0.6;
     max-width: 34rem;
     line-height:28px;
+    font-family: "Regular";
+    letter-spacing:0.5px;
+    
 }
 
 /* our projects */
@@ -375,15 +394,18 @@ display: flex;
    letter-spacing:-2px;
    line-height:80px;
    color:white;
+   font-family: "Medium";
 }
 .our-projects .text-container .heading-container p{
     font-size: 16px;
     color:white;
     font-weight:600;
-    opacity:0.4;
-    max-width: 40rem;
+    opacity:0.5;
+    max-width: 38rem;
     line-height:28px;
     margin-top: 2rem;
+    letter-spacing:0.5;
+    font-family: "Light";
 }
 .our-projects .text-container .summary-container {
     display:flex;
@@ -396,18 +418,21 @@ display: flex;
 .our-projects .text-container .summary-container h1{
     font-size: 50px;
     font-weight:400;
-   letter-spacing:-2px;
+   letter-spacing:3px;
    line-height:80px;
    color:white;
    opacity:0.4;
+   font-family: "Regular";
 }
 .our-projects .text-container .summary-container p{
-    font-size: 16px;
+    font-size: 15px;
     font-weight:600;
    line-height:28px;
    color:white;
    opacity:0.4;
    max-width: 15rem;
+   letter-spacing:0.5px;
+   font-family: "Light";
 }
 .our-projects .projects-container::-webkit-scrollbar{
     display: none;
@@ -444,21 +469,23 @@ display: flex;
     margin-top: 2rem;
 }
 .our-projects .projects-container .project-item .project-heading h1{
-    font-size: 40px;
+    font-size: 50px;
     font-weight:400;
-   letter-spacing:0px;
+   letter-spacing:0.6px;
    line-height:30px;
    color:white;
    margin-bottom: 20px;
+   font-family: "Regular";
 }
 .our-projects .projects-container .project-item .project-heading p{
     font-size: 15px;
-    font-weight:600;
-   letter-spacing:-0.2px;
+    font-weight:500;
+   letter-spacing:0.5px;
    line-height:30px;
    color:white;
-   opacity: 0.4;
+   opacity: 0.6;
    max-width: 26rem;
+   font-family: "Regular";
 }
 /* abouut us */
 .about-us{
@@ -474,8 +501,9 @@ background-color:var(--grey);
     font-size: 80px;
     font-weight:400;
    letter-spacing:-5px;
-   line-height:90px;
+   line-height:95px;
    color:var(--black);
+   font-family: "Regular";
 }
 .about-us .row-container{
     display: flex;
@@ -495,21 +523,23 @@ background-color:var(--grey);
 .about-us .row-container .text-container .heading .left{
     font-size: 40px;
     font-weight:600;
-   letter-spacing:-2px;
+   letter-spacing:-0.2px;
    line-height:52px;
    color:var(--black);
    text-align:left;
    padding-bottom: 10px;
+   font-family: "Medium";
 }
 .about-us .row-container .text-container .heading .right{
     font-size: 40px;
     font-weight:600;
-   letter-spacing:-2px;
+   letter-spacing:-0.2px;
    line-height:52px;
    color:var(--black);
    text-align:right;
    padding-bottom: 10px;
    padding-right: 60px;
+   font-family: "Medium";
 }
 .about-us .row-container .text-container .summary{
     display:flex;
@@ -520,9 +550,10 @@ background-color:var(--grey);
 .about-us .row-container .text-container .summary p{
     font-size: 16px;
     font-weight:600;
-   letter-spacing:-0.1px;
-   line-height:28px;
+   letter-spacing:0.5px;
+   line-height:30px;
    color: rgb(104, 104, 104); 
+   font-family: "Light";
 }
 .about-us .row-container .image{
     width: 300px;
