@@ -42,7 +42,7 @@ function Home() {
               <h1 className="heading">Planing</h1>
               <div className="works-item-content">
                 <h1>Step 01</h1>
-                <p>Let's see how we are working. Discover the best interior design for your sweet home.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
               </div>
               <div className="item-divider"></div>
             </div>
@@ -50,7 +50,7 @@ function Home() {
               <h1 className="heading">Estimating</h1>
               <div className="works-item-content">
                 <h1>Step 02</h1>
-                <p>Let's see how we are working. Discover the best interior design for your sweet home.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
               </div>
               <div className="item-divider"></div>
             </div>
@@ -58,7 +58,7 @@ function Home() {
               <h1 className="heading">Building</h1>
               <div className="works-item-content">
                 <h1>Step 03</h1>
-                <p>Let's see how we are working. Discover the best interior design for your sweet home.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
               </div>
               <div className="item-divider"></div>
             </div>
@@ -139,7 +139,7 @@ function Home() {
         <div className="text-container">
           <h1>Keep up to date with new trends in interior design.</h1>
           <div className="text-p">
-            <p>Stay updated with the newest interior design stories, case studies, and insights shared by the <span>intor.</span> Team</p>
+            <p>Stay updated with the newest interior design stories, case studies, and insights shared by the intor Team</p>
           </div>
         </div>
       </section>
