@@ -17,13 +17,14 @@
     padding:2rem 4rem;
    
 }
-.navbar .navbar-container .logo-name{
-    font-size: 16px;
+.navbar .navbar-container .logo-name h1{
+    font-size: 36px;
     color:white;
     letter-spacing:-2px;
     font-weight:400;
     opacity:0.9;
     cursor:pointer;
+    font-family:"Medium";
 }
 .navbar .navbar-container .navbar-links-container ul{
     display:flex;
@@ -37,13 +38,13 @@
    
 }
 .navbar .navbar-container .navbar-links-container ul li a{
-    font-size: 16px;
+    font-size: 15px;
     color:rgb(148, 148, 148);
-    letter-spacing:-0.7px;
-    font-weight:700;
+    /* font-weight:700; */
     text-decoration:none;
     /* text-transform:uppercase; */
     transition: 250ms all ease-in;
+    font-family:"Medium";
 }
 .navbar .navbar-container .navbar-links-container ul li a:hover{
     color:white;
@@ -123,6 +124,7 @@ display:none;
             text-decoration:none;
             list-style: none;
             transition: 250ms all ease-in;
+            font-family:"Medium";
         }
         .hamburger-links ul li a:hover{
             color:white;
