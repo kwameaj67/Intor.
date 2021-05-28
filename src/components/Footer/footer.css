@@ -26,6 +26,7 @@ justify-content:space-between;
     font-weight:700;
     color:white;
     letter-spacing:-2px;
+    font-family: "Regular";
     /* opacity: 0.7; */
 }
 .footer .footer-container .footer-links .info .socials{
@@ -39,25 +40,25 @@ justify-content:space-between;
     align-items:flex-start;
 }
 .footer .footer-container .footer-links .info .socials ul li{
-    padding-right: 35px;
-    
-
-}
-/* .footer .footer-container .footer-links .info .socials ul li .bg{
-     width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color:white;
-    opacity: 0.4;
+    padding-right: 55px;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;  
+   
+}
+/* .footer .footer-container .footer-links .info .socials ul li .bg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:rgb(109, 109, 109);
+  
 } */
 .footer .footer-container .footer-links .info .socials ul li .icon{
     color: white;
     opacity: 0.6; 
     transition:250ms all ease-in; 
+    position: absolute;
+  
 }
 .footer .footer-container .footer-links .info .socials ul li .icon:hover{
     opacity: 0.8;  
@@ -70,10 +71,11 @@ justify-content:space-between;
     justify-content:space-between;
 }
 .footer .footer-container .footer-links .links-container .item h1{
-    font-size: 24px;
+    font-size: 20px;
     font-weight:700;
     color:white;
     opacity: 0.3;
+    font-family: "Regular";
 }
 .footer .footer-container .footer-links .links-container .item .active-links{
     display:flex;
@@ -82,14 +84,15 @@ justify-content:space-between;
     padding-bottom: 30px;
 }
 .footer .footer-container .footer-links .links-container .item .active-links a{
-    font-size: 15px;
+    font-size: 14px;
     font-weight:600;
     color:white;
     opacity: 0.3;
     padding-bottom: 24px;
     text-decoration: none;
-    letter-spacing:-0.4px;
+    letter-spacing:0.5px;
     transition:250ms all ease-in;
+    font-family: "Regular";
 }
 .footer .footer-container .footer-links .links-container .item .active-links a:hover{
     transition:250ms all ease-in;
@@ -102,6 +105,7 @@ justify-content:space-between;
     color:white;
     opacity: 0.7;
     padding-bottom: 18px;
+    font-family: "Medium";
 }
 .footer .footer-container .divider{
     width: 100%;
@@ -120,8 +124,9 @@ justify-content:space-between;
     opacity: 0.3;
     padding-bottom: 18px;
     text-decoration: none;
-    letter-spacing:-0.4px;
+    letter-spacing:0.5px;
     padding: 20px;
+    font-family: "Regular";
 }
 .footer .footer-container .copyright .company-name{
    color: var(--grey);
