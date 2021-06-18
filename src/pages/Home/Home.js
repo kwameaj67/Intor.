@@ -6,6 +6,7 @@ import image from '../../assets/zane-persaud-V8CSUtCP04E-unsplash.svg'
 import item1 from '../../assets/devon-janse-van-rensburg-_WEDFTZV0qU-unsplash.svg'
 import item2 from '../../assets/rune-enstad-UXFJ-6Zj27M-unsplash.svg'
 import item3 from '../../assets/sidekix-media-oCw5_evbWyI-unsplash.svg'
+import item4 from '../../assets/im3rd-media-dn5VihVxloc-unsplash.svg'
 import designImage from '../../assets/jason-briscoe-UV81E0oXXWQ-unsplash.svg'
 import designImage1 from '../../assets/im3rd-media-dn5VihVxloc-unsplash.svg'
 import { CgArrowLongRight } from 'react-icons/cg'
@@ -105,6 +106,15 @@ function Home() {
           <div className="project-item">
             <div className="project-img">
               <img src={item3} alt="img" className="img" loading="lazy" />
+            </div>
+            <div className="project-heading">
+              <h1>Kitchen</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+          <div className="project-item">
+            <div className="project-img">
+              <img src={item4} alt="img" className="img" loading="lazy" />
             </div>
             <div className="project-heading">
               <h1>Kitchen</h1>
