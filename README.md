@@ -4,4 +4,4 @@ A web developement project design clone of [Intor](https://dribbble.com/shots/15
 Made by [React](https://github.com/facebook/create-react-app).
 
 
-
+Live URL - [Intor](https://intor.netlify.app/)
