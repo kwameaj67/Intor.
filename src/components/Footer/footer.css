@@ -40,25 +40,18 @@ justify-content:space-between;
     align-items:flex-start;
 }
 .footer .footer-container .footer-links .info .socials ul li{
-    padding-right: 55px;
+    padding-right: 25px;
+}
+.footer .footer-container .footer-links .info .socials ul li a{
     display: flex;
     justify-content: center;
     align-items: center;
-   
-}
-/* .footer .footer-container .footer-links .info .socials ul li .bg{
-    width: 40px;
-    height: 40px;
     border-radius: 50%;
-    background-color:rgb(109, 109, 109);
-  
-} */
-.footer .footer-container .footer-links .info .socials ul li .icon{
+    background-color:#2a2a2a;
     color: white;
-    opacity: 0.6; 
     transition:250ms all ease-in; 
-    position: absolute;
-  
+    position: relative;
+    padding:14px;
 }
 .footer .footer-container .footer-links .info .socials ul li .icon:hover{
     opacity: 0.8;  

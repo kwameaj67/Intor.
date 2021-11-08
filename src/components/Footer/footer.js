@@ -13,9 +13,9 @@ function Footer() {
             <h1>intor.</h1>
             <div className="socials">
               <ul>
-                <li><div className="bg"><a href="http://"><CgFacebook size={20} className="icon" /></a></div></li>
-                <li><div className="bg"><a href="http://"><FaTwitter size={20} className="icon" /></a></div></li>
-                <li><div className="bg"><a href="http://"><FiInstagram size={20} className="icon" /></a></div></li>
+                <li><a href="http://"><CgFacebook size={16} className="icon" /></a></li>
+                <li><a href="http://"><FaTwitter size={16} className="icon" /></a></li>
+                <li><a href="http://"><FiInstagram size={16} className="icon" /></a></li>
               </ul>
             </div>
           </div>
