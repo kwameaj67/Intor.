@@ -55,13 +55,14 @@
     }
    /* section 4 */
    .section-4 .text-container{
-    margin:2rem 2rem;
+            margin:2rem 2rem;
         }
         .section-4 .text-container .item-container{
             margin: 1rem 0rem;
         }
         .section-4 .text-container .item-container .item .content-container p{
-            font-size: 20px;
+            font-size: 18px;
+            max-width:230px;
         }
         /* section 5 */
         .section-5 .text-container{

@@ -38,17 +38,17 @@
    
 }
 .navbar .navbar-container .navbar-links-container ul li a{
-    font-size: 15px;
+    font-size: 13.5px;
     color:rgb(148, 148, 148);
     /* font-weight:700; */
     text-decoration:none;
-    /* text-transform:uppercase; */
+    text-transform:uppercase;
     transition: 250ms all ease-in;
     font-family:"Medium";
 }
 .navbar .navbar-container .navbar-links-container ul li a:hover{
     color:white;
-    opacity:0.8;
+    opacity:1;
     transition: 250ms all ease-in;
 }
 

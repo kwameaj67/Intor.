@@ -134,7 +134,8 @@ function Home() {
               <p className="right">design for your best home</p>
             </div>
             <div className="summary">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br /> <br />Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              <p>We founded space in 2003 having previously worked in the traditional interior and the serviced office world.<br/><br/>It's hugely important to us that we respond to the architecture, location and context of each building; we figured if we did that, then each location would belong to the people who use them rather than us, and generate a real sense of ownership and community.
+              </p>
             </div>
             <div className="image">
               <img src={designImage1} alt="img" className="img" loading="lazy" />
