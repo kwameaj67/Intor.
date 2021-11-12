@@ -12,7 +12,7 @@ html {
   scroll-behavior: smooth;
  } 
  .App {
-  /* background-color: var(--black) */
+  background-color: var(--black)
  }
  .App .loader{
   display:flex;
@@ -27,7 +27,7 @@ html {
   font-size:50px;
   font-family:"Medium";
   font-weight:400;
-  color:var(--black);
+  color:white;
   letter-spacing:-1.5px;
   cursor:pointer;
   text-decoration: none;

@@ -42,7 +42,7 @@
     color:rgb(148, 148, 148);
     /* font-weight:700; */
     text-decoration:none;
-    text-transform:uppercase;
+    /* text-transform:uppercase; */
     transition: 250ms all ease-in;
     font-family:"Medium";
 }

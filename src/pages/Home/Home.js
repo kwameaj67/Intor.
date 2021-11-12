@@ -1,4 +1,4 @@
-import React,{useEffect,createRef} from 'react';
+import React, { useEffect, createRef } from 'react';
 import './home.css'
 import './responsive.css'
 import Navbar from '../../components/Navbar/navbar'
@@ -12,11 +12,13 @@ import designImage from '../../assets/jason-briscoe-UV81E0oXXWQ-unsplash.webp'
 import designImage1 from '../../assets/im3rd-media-dn5VihVxloc-unsplash.webp'
 import { CgArrowLongRight } from 'react-icons/cg'
 import locomotiveScroll from 'locomotive-scroll'
+import aos from 'aos'
 
 
 function Home() {
   const scrollRef = createRef();
-  useEffect(()=> {
+  useEffect(() => {
+    aos.init()
     // eslint-disable-next-line
     const scroll = new locomotiveScroll({
       el: scrollRef.current,
@@ -26,25 +28,25 @@ function Home() {
   return (
     <div data-scroll data-scroll-speed="-3" className="App" ref={scrollRef}>
       <Navbar />
-      <section data-scroll  className="section-1">
+      <section data-scroll className="section-1">
         <div className="intro-container">
           <div className="text-container">
-            <h1>Luxurious comfort in a refreshing interior</h1>
-            <div className="summary-text-container">
+            <h1 data-aos="fade-up" data-aos-duration="1400" >Luxurious comfort in a refreshing interior</h1>
+            <div data-aos="fade-up" data-aos-duration="1600" className="summary-text-container">
               <div className="scroll-container">
                 <div className="divider"></div>
-                <p>Scroll to <br />Explore</p>
+                <p >Scroll to <br />Explore</p>
               </div>
               <div className="summary-text">
                 <p>Interior design is the art and science of enhancing the interior of a building to achieve a healthier and more asthetically pleasing environment for the people using the space.</p>
               </div>
             </div>
           </div>
-          <div className="bg-img-container">
+          <div data-aos="fade-up" data-aos-duration="1400" className="bg-img-container">
             <img src={image} alt="img" className="bg-img" />
           </div>
         </div>
-        <div className="overlay-container">
+        <div data-aos="fade-up" data-aos-duration="1400" className="overlay-container">
           <img src={image} alt="img" className="overlay-img" />
         </div>
       </section>
@@ -77,8 +79,8 @@ function Home() {
             </div>
           </div>
           <div className="works-summary">
-            <h1>See how we works</h1>
-            <p>Let's see how we are working. Discover the best interior design for your sweet home.</p>
+            <h1 >See how we works</h1>
+            <p >Let's see how we are working. Discover the best interior design for your sweet home.</p>
             <div className="bg-img-container">
               <img src={image} alt="img" className="bg-img" />
             </div>
@@ -146,7 +148,7 @@ function Home() {
               <p className="right">design for your best home</p>
             </div>
             <div className="summary">
-              <p>We founded space in 2003 having previously worked in the traditional interior and the serviced office world.<br/><br/>It's hugely important to us that we respond to the architecture, location and context of each building; we figured if we did that, then each location would belong to the people who use them rather than us, and generate a real sense of ownership and community.
+              <p>We founded space in 2003 having previously worked in the traditional interior and the serviced office world.<br /><br />It's hugely important to us that we respond to the architecture, location and context of each building; we figured if we did that, then each location would belong to the people who use them rather than us, and generate a real sense of ownership and community.
               </p>
             </div>
             <div className="image">
