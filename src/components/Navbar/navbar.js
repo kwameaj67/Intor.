@@ -1,5 +1,5 @@
 import './navbar.css';
-import React, { useState } from 'react'
+import React, { useState} from 'react'
 
 function Navbar() {
   const [show, setShow] = useState(false)
@@ -7,9 +7,10 @@ function Navbar() {
   const toggleMenu = () => {
     setShow(!show)
   }
+  
   return (
     <>
-      <div className="navbar">
+      <div  className="navbar">
         <div className="navbar-container">
           <div className="logo-name">
             <h1>intor.</h1>

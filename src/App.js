@@ -6,15 +6,15 @@ const Home = React.lazy(() => import('./pages/Home/Home'))
 function App() {
   return (
     <div >
-      <Suspense fallback={
-        <div className="App">
-          <div className="loader">
-            <h1>intor.</h1>
+        <Suspense fallback={
+          <div className="App">
+            <div className="loader">
+              <h1>intor.</h1>
+            </div>
           </div>
-        </div>
-      }>
-        <Home />
-      </Suspense>
+        }>
+          <Home />
+        </Suspense>
     </div>
   );
 }

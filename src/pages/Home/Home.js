@@ -1,3 +1,4 @@
+import React,{useEffect,createRef} from 'react';
 import './home.css'
 import './responsive.css'
 import Navbar from '../../components/Navbar/navbar'
@@ -10,11 +11,22 @@ import item4 from '../../assets/im3rd-media-dn5VihVxloc-unsplash.webp'
 import designImage from '../../assets/jason-briscoe-UV81E0oXXWQ-unsplash.webp'
 import designImage1 from '../../assets/im3rd-media-dn5VihVxloc-unsplash.webp'
 import { CgArrowLongRight } from 'react-icons/cg'
+import locomotiveScroll from 'locomotive-scroll'
+
+
 function Home() {
+  const scrollRef = createRef();
+  useEffect(()=> {
+    // eslint-disable-next-line
+    const scroll = new locomotiveScroll({
+      el: scrollRef.current,
+      smooth: true
+    });
+  })
   return (
-    <div className="App">
+    <div data-scroll data-scroll-speed="-3" className="App" ref={scrollRef}>
       <Navbar />
-      <section className="section-1">
+      <section data-scroll  className="section-1">
         <div className="intro-container">
           <div className="text-container">
             <h1>Luxurious comfort in a refreshing interior</h1>
@@ -36,7 +48,7 @@ function Home() {
           <img src={image} alt="img" className="overlay-img" />
         </div>
       </section>
-      <section className="section-2" id="works">
+      <section data-scroll className="section-2" id="works">
         <div className="works-container">
           <div className="works-list-container">
             <div className="works-item">
@@ -73,7 +85,7 @@ function Home() {
           </div>
         </div>
       </section>
-      <section className="our-projects" id="projects">
+      <section data-scroll className="our-projects" id="projects">
         <div className="text-container">
           <div className="heading-container">
             <h1>Our Projects</h1>
@@ -123,7 +135,7 @@ function Home() {
           </div>
         </div>
       </section>
-      <section className="about-us" id="about">
+      <section data-scroll className="about-us" id="about">
         <div className="about-heading">
           <h1>Intor is a team of enthusiasts providing a high quality of solution for all interior work.</h1>
         </div>
@@ -146,7 +158,7 @@ function Home() {
           </div>
         </div>
       </section>
-      <section className="section-3">
+      <section data-scroll className="section-3">
         <div className="text-container">
           <h1>Keep up to date with new trends in interior design.</h1>
           <div className="text-p">
@@ -154,7 +166,7 @@ function Home() {
           </div>
         </div>
       </section>
-      <section className="section-4">
+      <section data-scroll className="section-4">
         <div className="text-container">
           <div className="item-container">
             <div className="item">
@@ -196,7 +208,7 @@ function Home() {
           </div>
         </div>
       </section>
-      <section className="section-5">
+      <section data-scroll className="section-5">
         <div className="text-container">
           <div className="heading-text">
             <h1 className="first">Let's work</h1>

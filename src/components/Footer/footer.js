@@ -6,7 +6,7 @@ import { FiInstagram } from 'react-icons/fi'
 
 function Footer() {
   return (
-    <section className="footer">
+    <section data-scroll-container className="footer">
       <div className="footer-container">
         <div className="footer-links">
           <div className="info">
@@ -28,6 +28,7 @@ function Footer() {
               </div>
             </div>
             <div className="item">
+
               <h1>Call us on</h1>
               <div className="active-links">
                 <a href="/">+0223 4853 3023</a>
