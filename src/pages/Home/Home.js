@@ -12,27 +12,23 @@ import designImage from '../../assets/jason-briscoe-UV81E0oXXWQ-unsplash.webp'
 import designImage1 from '../../assets/im3rd-media-dn5VihVxloc-unsplash.webp'
 import { CgArrowLongRight } from 'react-icons/cg'
 import locomotiveScroll from 'locomotive-scroll'
-import aos from 'aos'
-
 
 function Home() {
   const scrollRef = createRef();
   useEffect(() => {
-    aos.init()
-    // eslint-disable-next-line
     const scroll = new locomotiveScroll({
       el: scrollRef.current,
       smooth: true
     });
   })
   return (
-    <div data-scroll data-scroll-speed="-3" className="App" ref={scrollRef}>
+    <div data-scroll data-scroll-speed="-3" ref={scrollRef} className="App">
       <Navbar />
       <section data-scroll className="section-1">
         <div className="intro-container">
           <div className="text-container">
-            <h1 data-aos="fade-up" data-aos-duration="1400" >Luxurious comfort in a refreshing interior</h1>
-            <div data-aos="fade-up" data-aos-duration="1600" className="summary-text-container">
+            <h1>Luxurious comfort in a refreshing interior</h1>
+            <div className="summary-text-container">
               <div className="scroll-container">
                 <div className="divider"></div>
                 <p >Scroll to <br />Explore</p>
@@ -42,11 +38,11 @@ function Home() {
               </div>
             </div>
           </div>
-          <div data-aos="fade-up" data-aos-duration="1400" className="bg-img-container">
+          <div  className="bg-img-container">
             <img src={image} alt="img" className="bg-img" />
           </div>
         </div>
-        <div data-aos="fade-up" data-aos-duration="1400" className="overlay-container">
+        <div  className="overlay-container">
           <img src={image} alt="img" className="overlay-img" />
         </div>
       </section>

@@ -1,11 +1,11 @@
 import './App.css';
-import React, { Suspense } from 'react'
-
+import React, { Suspense,useEffect,createRef } from 'react'
+import locomotiveScroll from 'locomotive-scroll'
 const Home = React.lazy(() => import('./pages/Home/Home'))
 
 function App() {
   return (
-    <div >
+    <div>
         <Suspense fallback={
           <div className="App">
             <div className="loader">
