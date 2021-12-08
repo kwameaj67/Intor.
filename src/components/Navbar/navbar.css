@@ -6,7 +6,7 @@
 .navbar{
     width:100%;
     background-color:var(--black) ;
-    /* position: absolute; */
+    /* position: fixed; */
     /* z-index: 9999; */
 }
 .navbar .navbar-container{
@@ -14,7 +14,7 @@
     justify-content:space-between;
     align-items:center;
     flex-direction:row;
-    padding:2rem 4rem;
+    padding:1rem 4rem;
    
 }
 .navbar .navbar-container .logo-name h1{

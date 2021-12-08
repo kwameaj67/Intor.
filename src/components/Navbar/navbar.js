@@ -10,7 +10,7 @@ function Navbar() {
   
   return (
     <>
-      <div data-scroll className="navbar">
+      <div className="navbar">
         <div className="navbar-container">
           <div className="logo-name">
             <h1>intor.</h1>
