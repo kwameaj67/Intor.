@@ -1,6 +1,5 @@
 import './App.css';
-import React, { Suspense,useEffect,createRef } from 'react'
-import locomotiveScroll from 'locomotive-scroll'
+import React, { Suspense } from 'react'
 const Home = React.lazy(() => import('./pages/Home/Home'))
 
 function App() {
