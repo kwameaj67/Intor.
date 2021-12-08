@@ -6,7 +6,7 @@ import { FiInstagram } from 'react-icons/fi'
 
 function Footer() {
   return (
-    <section data-scroll className="footer">
+    <section className="footer">
       <div className="footer-container">
         <div className="footer-links">
           <div className="info">
