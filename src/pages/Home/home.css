@@ -8,16 +8,18 @@ h1 , p{
     margin:0;
     padding:0;
 }
+
 .section-1{
       width:100%;
-      background-color:var(--black);
+      background-color: var(--black);
+      /* padding-top: 7rem; */
 }
 .section-1 .intro-container{
  display: flex;
  flex-direction:row;
  justify-content: space-between;
  align-items:center;   
- padding-top: 4rem;
+ padding-top: 5rem;
  height: 43rem;
 }
 .section-1 .intro-container .text-container{
@@ -85,6 +87,7 @@ display: flex;
     justify-content:center;
     align-items:center;
     flex-basis: 50%;
+    background-color: var(--grey);
 }
 .section-1 .intro-container .bg-img-container .bg-img{
     width: 100%;

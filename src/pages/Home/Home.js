@@ -1,4 +1,4 @@
-import React, { useEffect, createRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import './home.css'
 import './responsive.css'
 import Navbar from '../../components/Navbar/navbar'
@@ -14,17 +14,20 @@ import { CgArrowLongRight } from 'react-icons/cg'
 import locomotiveScroll from 'locomotive-scroll'
 
 function Home() {
-  const scrollRef = createRef();
+  const scrollRef = useRef(null);
   useEffect(() => {
-    const scroll = new locomotiveScroll({
-      el: scrollRef.current,
-      smooth: true
-    });
+    // new locomotiveScroll({
+    //   el: scrollRef.current,
+    //   smooth: true,
+    //   lerp: .06,
+    //   multiplier: .5
+    // });
   })
+  // data-scroll data-scroll-speed="3" ref={scrollRef} 
   return (
-    <div data-scroll data-scroll-speed="-3" ref={scrollRef} className="App">
+    <div className="App">
       <Navbar />
-      <section data-scroll className="section-1">
+      <section data-scroll  className="section-1">
         <div className="intro-container">
           <div className="text-container">
             <h1>Luxurious comfort in a refreshing interior</h1>
@@ -38,11 +41,11 @@ function Home() {
               </div>
             </div>
           </div>
-          <div  className="bg-img-container">
+          <div className="bg-img-container">
             <img src={image} alt="img" className="bg-img" />
           </div>
         </div>
-        <div  className="overlay-container">
+        <div className="overlay-container">
           <img src={image} alt="img" className="overlay-img" />
         </div>
       </section>
