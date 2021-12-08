@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect } from 'react';
 import './home.css'
 import './responsive.css'
 import Navbar from '../../components/Navbar/navbar'
@@ -11,10 +11,10 @@ import item4 from '../../assets/im3rd-media-dn5VihVxloc-unsplash.webp'
 import designImage from '../../assets/jason-briscoe-UV81E0oXXWQ-unsplash.webp'
 import designImage1 from '../../assets/im3rd-media-dn5VihVxloc-unsplash.webp'
 import { CgArrowLongRight } from 'react-icons/cg'
-import locomotiveScroll from 'locomotive-scroll'
+// import locomotiveScroll from 'locomotive-scroll'
 
 function Home() {
-  const scrollRef = useRef(null);
+  // const scrollRef = useRef(null);
   useEffect(() => {
     // new locomotiveScroll({
     //   el: scrollRef.current,
