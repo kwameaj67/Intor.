@@ -19,7 +19,7 @@ h1 , p{
  flex-direction:row;
  justify-content: space-between;
  align-items:center;   
- padding-top: 5rem;
+ padding-top: 2.5rem;
  height: 43rem;
 }
 .section-1 .intro-container .text-container{
