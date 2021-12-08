@@ -6,4 +6,4 @@ Made by [React](https://github.com/facebook/create-react-app).
 
 Live URL - https://intor.netlify.app/
 
-<img src="src/assets/intor.png"  width="900">
+<img src="src/assets/intor.jpeg"  width="900">
